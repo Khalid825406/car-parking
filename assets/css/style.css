@@ -11557,7 +11557,7 @@ input:focus {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 600px) {
     .blog-card img {
         height: 150px;
     }
@@ -11567,23 +11567,27 @@ input:focus {
         margin: 70px auto;
         padding: 0px 12px;
     }
+
     .pos h1 {
         font-size: 30px !important;
         font-weight: 600 !important;
         color: #fff !important;
         line-height: 28px !important;
     }
+
     .pos {
         position: absolute;
-        top: 14% !important;
+        top: 23% !important;
         left: 9px !important;
         width: 300px !important;
     }
+
     .pos p {
         color: #fff;
         font-size: 14px !important;
         line-height: 18px !important;
     }
+
     .pos button {
         border: none;
         outline: none;
@@ -11593,12 +11597,15 @@ input:focus {
         border-radius: 5px;
         font-size: 12px;
     }
+
     .header-area .main-header {
         padding: 0px 0px !important;
     }
+
     .mobile_menu .slicknav_menu .slicknav_btn {
         top: -68px !important;
     }
+
     .hero-slider {
         position: relative;
         width: 100%;
@@ -11606,64 +11613,90 @@ input:focus {
         overflow: hidden;
         z-index: -1;
     }
+
     .align-items-center {
         padding: 0px 10px !important;
     }
+
     .footer-copy-right {
         padding-top: 0px;
         float: left;
         text-align: left !important;
     }
+
     .mobile_menu .slicknav_menu .slicknav_nav {
-    margin-top: -6px !important;
-}
-.whatfixed {
-    position: fixed;
-    right: 16px !important;
-    bottom: 88px;
-    z-index: 999;
-}
-.call {
-    position: fixed;
-    left: 13px !important;
-    bottom: 20px;
-    z-index: 999;
-    cursor: pointer;
-}
-.d-flex12 {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-top: 10px;
-    padding: 0px 15px;
-}
-.message button {
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 10px !important;
-    cursor: pointer;
-}
-.callme button {
-    background: #ff2020;
-    border: none;
-    outline: none;
-    font-size: 10px !important;
-    cursor: pointer;
-}
-.callme {
-    background: #ff2020;
-    color: #fff !important;
-    padding: 5px 10px;
-    font-size: 12px !important;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.message{
-    font-size: 12px !important;
-}
+        margin-top: -6px !important;
+    }
+
+    .whatfixed {
+        position: fixed;
+        right: 16px !important;
+        bottom: 88px;
+        z-index: 999;
+    }
+
+    .call {
+        position: fixed;
+        left: 13px !important;
+        bottom: 20px;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .d-flex12 {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 10px;
+        padding: 0px 15px;
+    }
+
+    .message button {
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 10px !important;
+        cursor: pointer;
+    }
+
+    .callme button {
+        background: #ff2020;
+        border: none;
+        outline: none;
+        font-size: 10px !important;
+        cursor: pointer;
+    }
+
+    .callme {
+        background: #ff2020;
+        color: #fff !important;
+        padding: 5px 10px;
+        font-size: 12px !important;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .message {
+
+        font-size: 12px !important;
+    }
+
+    .hero-slider .owl-carousel .item {
+        position: relative;
+        width: 100%;
+        height: 100% !important;
+        overflow: hidden;
+        background-size: cover;
+    }
+    .hero-slider .owl-carousel .item img{
+        position: relative;
+        width: 100%;
+        height: 100% !important;
+        overflow: hidden;
+        background-size: cover;
+    }
 }
 
 .main12 {
@@ -11785,6 +11818,7 @@ input:focus {
         width: 12px;
         height: 12px;
     }
+
 }
 
 .section-padding30 {
