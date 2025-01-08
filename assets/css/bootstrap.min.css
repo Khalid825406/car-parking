@@ -9708,8 +9708,12 @@ button.bg-dark:hover {
     text-align: right !important
 }
 
-.text-center {
-    text-align: center !important
+.popular-caption{
+    padding: 0px 16px;
+}
+.popular-caption p{
+    line-height: 18px;
+    font-size: 17px;
 }
 
 @media (min-width:576px) {
